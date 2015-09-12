@@ -3,6 +3,7 @@ layout: page
 permalink: /docs/symfony.html
 title: How to use Mongrate with Symfony
 content_title: Symfony integration
+excerpt: In addition to the standalone installation, there is a Symfony bundle.
 ---
 
 In addition to the [standalone installation](/docs/installation), there is a Symfony bundle, which
