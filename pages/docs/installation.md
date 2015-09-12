@@ -8,8 +8,8 @@ content_title: Installation
 Requirements
 ============
 
-* PHP >= 5.4.0
-* PHP MongoDB extension
+* [PHP >= 5.4.0](https://secure.php.net/manual/en/install.php)
+* [PHP MongoDB extension](https://secure.php.net/manual/en/mongo.installation.php)
 
 Standalone install
 ==================
@@ -23,9 +23,21 @@ sudo chmod +x /usr/bin/mongrate
 sudo wget mongrate.com/sample-config.yml -O /etc/mongrate.yml
 </pre>
 
-Now verify the install has been successful by running `mongrate`.
+Now verify the install has been successful by running `mongrate`. You should see a list of available
+commands, and no error messages.
 
 If successful, you can now configure mongrate in `/etc/mongrate.yml`.
+
+Configuration
+=============
+
+By default, you should configure Mongrate in `/etc/mongrate.yml`
+
+| Parameter             | Required? | Description  |
+| -------------         |:---------:| :------------|
+| mongodb_server        | yes       | URI for your MongoDB server. |
+| mongodb_db            | yes       | Database name. |
+| migrations_directory  | yes       | The directory where your migration files are to be kept. |
 
 Symfony integration
 ===================

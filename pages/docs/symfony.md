@@ -5,8 +5,8 @@ title: How to use Mongrate with Symfony
 content_title: Symfony integration
 ---
 
-In addition to the standalone installation, there is a Symfony bundle, which lets you use the
-Mongrate commands by running your `app/console` (`bin/console` in Symfony3).
+In addition to the [standalone installation](/docs/installation), there is a Symfony bundle, which
+lets you use the Mongrate commands by running your `app/console` (`bin/console` in Symfony3).
 
 Installation
 ------------
