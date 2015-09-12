@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git pull
+jekyll build
+ln -s ../../downloads/ _site/downloads
