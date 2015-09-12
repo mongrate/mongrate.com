@@ -11,3 +11,4 @@ Pages in this section:
 * [Commands](/docs/commands)
 * [How to write a migration](/docs/writing-migrations)
 * [Symfony2 integration](/docs/symfony)
+* [Puppet installation](/docs/puppet)

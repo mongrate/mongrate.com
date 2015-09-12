@@ -46,3 +46,10 @@ In addition to the standalone installation, there is a Symfony bundle, which let
 Mongrate commands by running your `app/console` (`bin/console` in Symfony3).
 
 For information, see [this page](/docs/symfony).
+
+Puppet
+======
+
+Installing via Puppet couldn't be easier.
+
+For information, see [this page](/docs/puppet).
