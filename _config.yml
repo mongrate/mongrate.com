@@ -1,0 +1,11 @@
+# Site settings
+title: "Mongate: bring testing and TDD to your MongoDB migrations"
+email: "amy@amyboyd.co.uk"
+description: >
+    Mongrate brings testing and TDD to your MongoDB migrations, and makes migrations easy to write.
+baseurl: ""
+url: "http://mongrate.com"
+github_username: mongrate
+markdown: kramdown
+include:
+  - pages
