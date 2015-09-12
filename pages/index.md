@@ -16,7 +16,7 @@ To get started, check out [the documentation](docs).
 Screenshots
 -----------
 
-Standlone installation:
+Standalone installation:
 
 <img src="/assets/screenshots/standalone.png" />
 
