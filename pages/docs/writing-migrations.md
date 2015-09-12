@@ -5,4 +5,5 @@ title: How to write a Mongrate migration
 content_title: Writing migrations
 ---
 
-@todo - write this page
+Have a look at our
+[example migrations on GitHub](https://github.com/mongrate/mongrate/tree/master/resources/examples).
