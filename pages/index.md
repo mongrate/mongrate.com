@@ -12,3 +12,14 @@ The aims of Mongrate are:
 * To integrate with various frameworks via middleware.
 
 To get started, check out [the documentation](docs).
+
+Screenshots
+-----------
+
+Standlone installation:
+
+<img src="/assets/screenshots/standalone.png" />
+
+Symfony integration:
+
+<img src="/assets/screenshots/symfony.png" />
