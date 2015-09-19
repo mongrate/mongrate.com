@@ -1,3 +1,5 @@
 _site
 .sass-cache
 /downloads/
+/pages/docs/changelog-body.md
+/pages/docs/changelog.md
