@@ -34,10 +34,16 @@ mongrate toggle UpdateAddressStructure_20140523
 
 ### Migrate up
 
-To migrate up:
+To migrate one migration up:
 
 ```
 mongrate up UpdateAddressStructure_20140523 [--force]
+```
+
+To migrate all unapplied migrations up:
+
+```
+mongrate up-all
 ```
 
 ### Migrate down
@@ -60,3 +66,17 @@ If you leave the direction empty, it will test both going `up` and `down`.
 
 If you add `--pretty=1`, the output of any errors will be formatted nicely, which is easier to read,
 but uses more vertical screen area.
+
+To test all migrations:
+
+```
+mongrate test-all
+```
+
+### Update Mongrate
+
+To update the Mongrate executable:
+
+```
+mongrate self-update
+```
