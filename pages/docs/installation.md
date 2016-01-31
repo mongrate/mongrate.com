@@ -8,7 +8,7 @@ content_title: Installation
 Requirements
 ============
 
-* [PHP >= 5.4.0](https://secure.php.net/manual/en/install.php)
+* [PHP >= 5.5.0](https://secure.php.net/manual/en/install.php) (lower versions are untested)
 * [PHP MongoDB extension](https://secure.php.net/manual/en/mongo.installation.php)
 
 Standalone install
