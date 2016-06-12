@@ -53,3 +53,8 @@ Puppet
 Installing via Puppet couldn't be easier.
 
 For information, see [this page](/docs/puppet).
+
+Ansible
+=======
+
+Installing via Ansible is also easy. See [this page](/docs/ansible).

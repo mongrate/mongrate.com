@@ -12,4 +12,5 @@ Pages in this section:
 * [How to write a migration](/docs/writing-migrations)
 * [Symfony2 integration](/docs/symfony)
 * [Puppet installation](/docs/puppet)
+* [Ansible installation](/docs/ansible)
 * [Changelog](/docs/changelog)
