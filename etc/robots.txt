@@ -1,2 +1,3 @@
-/download
-/sample-config.yml
+User-agent: *
+Disallow: /download
+Disallow: /sample-config.yml
