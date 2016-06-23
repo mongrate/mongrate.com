@@ -16,6 +16,21 @@ In your Symfony application directory, run:
 
 `composer require amyboyd/mongrate-bundle`
 
+Add the bundle to registerBundles() method of AppKernel:
+
+```
+# app/AppKernel.php
+
+class AppKernel extends Kernel
+{
+    public function registerBundles()
+    {
+        $bundles = array(
+            ...
+            new Mongrate\MongrateBundle\MongrateBundle(),
+            ...
+```
+
 Set your configuration in your application's `config.yml`:
 
 <pre>
