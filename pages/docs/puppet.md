@@ -11,7 +11,7 @@ is easy:
 
 <pre>
 exec { 'Download mongrate.phar':
-  command => '/usr/bin/wget mongrate.com/download?puppet -O /usr/bin/mongrate',
+  command => '/usr/bin/wget mongrate.amyboyd.co.uk/download?puppet -O /usr/bin/mongrate',
   creates => '/usr/bin/mongrate',
 }
 
@@ -26,7 +26,7 @@ Configuring `/etc/mongrate.yml` is up to you, but you can download the sample ea
 
 <pre>
 exec { 'Download mongrate.yml':
-  command => '/usr/bin/wget mongrate.com/sample-config.yml?puppet -O /etc/mongrate.yml',
+  command => '/usr/bin/wget mongrate.amyboyd.co.uk/sample-config.yml?puppet -O /etc/mongrate.yml',
   creates => '/etc/mongrate.yml',
 }
 </pre>

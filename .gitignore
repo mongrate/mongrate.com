@@ -3,3 +3,4 @@ _site
 /downloads/
 /pages/docs/changelog-body.md
 /pages/docs/changelog.md
+/.jekyll-cache/

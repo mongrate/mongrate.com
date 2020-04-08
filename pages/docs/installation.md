@@ -18,9 +18,9 @@ This method of installing requires just PHP to be installed. It is the simplest 
 way to get started. It will work for projects of any size.
 
 <pre>
-sudo wget mongrate.com/download -O /usr/bin/mongrate
+sudo wget mongrate.amyboyd.co.uk/download -O /usr/bin/mongrate
 sudo chmod +x /usr/bin/mongrate
-sudo wget mongrate.com/sample-config.yml -O /etc/mongrate.yml
+sudo wget mongrate.amyboyd.co.uk/sample-config.yml -O /etc/mongrate.yml
 </pre>
 
 Now verify the install has been successful by running `mongrate`. You should see a list of available

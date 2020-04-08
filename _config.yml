@@ -4,7 +4,7 @@ email: "amy@amyboyd.co.uk"
 description: >
     Mongrate brings testing and TDD to your MongoDB migrations, and makes migrations easy to write.
 baseurl: ""
-url: "http://mongrate.com"
+url: "http://mongrate.amyboyd.co.uk"
 github_username: mongrate
 markdown: kramdown
 include:

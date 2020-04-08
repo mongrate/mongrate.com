@@ -11,12 +11,12 @@ is easy:
 
 <pre>
 - name: Install Mongrate
-  get_url: url=http://mongrate.com/download?ansible dest=/usr/bin/mongrate mode=0555 force=no
+  get_url: url=http://mongrate.amyboyd.co.uk/download?ansible dest=/usr/bin/mongrate mode=0555 force=no
 </pre>
 
 Configuring `/etc/mongrate.yml` is up to you, but you can download the sample file easily too:
 
 <pre>
 - name: Copy default Mongrate configuration
-  get_url: url=http://mongrate.com/sample-config.yml?ansible dest=/etc/mongrate.yml force=no
+  get_url: url=http://mongrate.amyboyd.co.uk/sample-config.yml?ansible dest=/etc/mongrate.yml force=no
 </pre>

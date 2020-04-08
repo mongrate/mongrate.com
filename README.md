@@ -1,7 +1,7 @@
-Mongrate.com
+Mongrate website
 ============
 
-This is the main organization website.
+This is the main project website.
 
 Dependencies
 ------------
@@ -13,7 +13,7 @@ How to install
 
 * Clone the project.
 * Install nginx.
-* Symlink the nginx config: `sudo ln -s /path/to/your/clone/of/mongrate.com/etc/nginx.conf /etc/nginx/sites-enabled/mongrate.com.conf`
+* Symlink the nginx config: `sudo ln -s /path/to/your/clone/of/mongrate.amyboyd.co.uk/etc/nginx.conf /etc/nginx/sites-enabled/mongrate.amyboyd.co.uk.conf`
 * Restart nginx: `sudo service nginx restart`
 * `jekyll build -w`
 

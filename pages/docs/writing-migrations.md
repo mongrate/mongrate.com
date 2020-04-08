@@ -98,7 +98,7 @@ collection names are the top-level keys, which contains arrays of documents.
 <pre>
 Images:
     -
-        url: http://mongrate.com/assets/logo.png
+        url: http://mongrate.amyboyd.co.uk/assets/logo.png
     -
         # This image already has a 'width' and 'height', and it should not be changed by our migration.
         url: http://www.google.com/logo.png
@@ -111,7 +111,7 @@ And we can write what we expect the database content to be afterwards in `up-ver
 <pre>
 Images:
     -
-        url: http://mongrate.com/assets/logo.png
+        url: http://mongrate.amyboyd.co.uk/assets/logo.png
         # These properties should have been set:
         width: 200
         height: 200
@@ -126,7 +126,7 @@ we will see this output:
 
 <pre>
 Testing AddImageDimensions_20160131 going up.
-Set dimensions for image http://mongrate.com/assets/logo.png: 200x200
+Set dimensions for image http://mongrate.amyboyd.co.uk/assets/logo.png: 200x200
 Test passed.
 </pre>
 
